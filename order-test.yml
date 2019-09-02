@@ -1,9 +1,9 @@
 server:
-  port: 8084
+  port: 8085
   
 spring:
   application:
-    name: order
+    name: test
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url:jdbc: mysql://localhost:3306
