@@ -2,7 +2,7 @@
 
 spring:
   application:
-    name: bigbigbig
+    name: activemq
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url:jdbc: mysql://localhost:3306
@@ -13,3 +13,10 @@ eureka:
   client:
     server-url:
       defaultZone: http://localhost:8761/eureka/
+      
+spring:
+  rabbitMq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
