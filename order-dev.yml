@@ -3,7 +3,7 @@ server:
   
 spring:
   application:
-    name: test
+    name: bigbigbig
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url:jdbc: mysql://localhost:3306
