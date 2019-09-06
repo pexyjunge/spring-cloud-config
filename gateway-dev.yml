@@ -4,8 +4,7 @@ spring:
   application:
     name: gateway
  
- eureka:
+eureka:
   client:
-    serviceUrl:
+    server-url:
       defaultZone: http://localhost:8761/eureka/
-    
